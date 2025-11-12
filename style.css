@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'InterVar';
+  src: url('/resources/Inter-VariableFont_opsz,wght.ttf')
+    format('ttf-variations');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'InterVar', sans-serif;
+  font-weight: 400;
+  font-size: 16;
+  color: #030616;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  margin: 72px 24px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 16px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600px;
+  margin-bottom: 32px;
+}
+
+p > .entry-text {
+  margin-bottom: 24px;
+}
+
+p > .conclusion-tex {
+  margin-bottom: 40px;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+li {
+  margin-bottom: 24px;
+}
+
+main {
+  background-color: #f8fafc;
+  padding-bottom: 72px;
+}
+
+section {
+  padding: 40px 36px 0px 36px;
+}
+
+#question1 {
+  padding-top: 72px;
+}
+
+ol,
+li {
+  margin-left: 10px;
+}
+
+.line {
+  background-color: #d2d5da;
+  height: 1px;
+  margin-top: 40px;
+}
+
+.link {
+  color: #4e80ee;
+  text-decoration: none;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
